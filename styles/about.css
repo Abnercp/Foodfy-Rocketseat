@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 940px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header img {
+    margin-right: 30px ;
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-left: 20px;
+}
+
+.links a {
+    color: #111111;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.article {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.intro-about h1 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 20px 0;
+}
+
+.intro-about p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.begin h2 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    padding: 20px 0;
+}
+
+.begin p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.menu h2 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    padding: 20px 0;
+}
+
+.menu p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+
+
+
+
+footer {
+    margin: 30px 0;
+    background: #EEEEEE;
+    display: grid;
+    padding: 20px;
+}
+
+footer span {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
